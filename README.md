@@ -98,4 +98,3 @@ Recursive Method calculates the factorial by calling the same function repeatedl
 Conclusion :
 
 From this practical, we learned that both iterative and recursive methods can be used to calculate the factorial of a number. Both methods have O(n) time complexity, but their space requirements are different. The iterative method uses less memory and is more memory efficient, while the recursive method is useful for understanding the concept of recursion. We also learned how to calculate and compare the execution time of both methods.
-
