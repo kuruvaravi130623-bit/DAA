@@ -119,8 +119,16 @@ Dynamic Programming provides an efficient method for finding the optimal order o
 
 PRACTICAL 7:
 
-Summary
+Summary:
 The Making Change problem was implemented using Dynamic Programming to find the minimum number of coins required to make a given amount of money. The problem was divided into smaller amounts, and the minimum number of coins for each amount was stored in a table. This avoids recalculating the same subproblems and provides an efficient solution.
 
 Conclusion
 Dynamic Programming is an effective technique for solving the Making Change problem. By storing previously calculated results, it reduces repeated computations and efficiently determines the minimum number of coins needed for a given amount. This practical demonstrates how Dynamic Programming can be applied to optimization problems.
+
+PRACTICAL 8:
+
+Summary:
+In this practical, a graph was implemented using an adjacency list in C++. Two important graph traversal techniques, DFS (Depth First Search) and BFS (Breadth First Search), were implemented. DFS explores a vertex as deeply as possible before backtracking, while BFS explores vertices level by level using a queue.
+
+Conclusion
+The practical demonstrates how graphs can be represented and traversed efficiently using DFS and BFS. DFS is useful for exploring paths and connected components, while BFS is useful for level-order traversal and finding the shortest path in an unweighted graph. Both algorithms have a time complexity of O(V + E) when an adjacency-list representation is used.
