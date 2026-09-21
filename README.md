@@ -98,3 +98,29 @@ Recursive Method calculates the factorial by calling the same function repeatedl
 Conclusion :
 
 From this practical, we learned that both iterative and recursive methods can be used to calculate the factorial of a number. Both methods have O(n) time complexity, but their space requirements are different. The iterative method uses less memory and is more memory efficient, while the recursive method is useful for understanding the concept of recursion. We also learned how to calculate and compare the execution time of both methods.
+
+PRACTICAL 5:
+
+Summary:
+
+The 0/1 Knapsack Problem was implemented using Dynamic Programming to determine the maximum total value that can be obtained without exceeding the given weight capacity of the knapsack. The problem was divided into smaller subproblems, and a dynamic programming table was used to store previously calculated results. This avoids repeated calculations and makes the solution more efficient than a straightforward recursive approach. The final table provides the maximum achievable value for each possible capacity and set of items.
+
+Conclusion
+The Dynamic Programming approach provides an efficient and systematic solution to the 0/1 Knapsack Problem. By storing the solutions to overlapping subproblems, it reduces unnecessary computation and solves the problem in O(nW) time, where n is the number of items and W is the knapsack capacity. Thus, dynamic programming is an effective technique for solving optimization problems such as the Knapsack Problem.
+
+PRACTICAL 6:
+
+Summary:
+
+The Chain Matrix Multiplication problem was implemented using Dynamic Programming to determine the most efficient order of multiplying a sequence of matrices. Since matrix multiplication is associative, different parenthesizations can produce different numbers of scalar multiplications. A dynamic programming table was used to store the minimum multiplication cost for different matrix chains, avoiding repeated calculations.
+
+Conclusion
+Dynamic Programming provides an efficient method for finding the optimal order of matrix multiplication. It reduces unnecessary computations by storing solutions to smaller subproblems and helps minimize the total number of scalar multiplications required.
+
+PRACTICAL 7:
+
+Summary
+The Making Change problem was implemented using Dynamic Programming to find the minimum number of coins required to make a given amount of money. The problem was divided into smaller amounts, and the minimum number of coins for each amount was stored in a table. This avoids recalculating the same subproblems and provides an efficient solution.
+
+Conclusion
+Dynamic Programming is an effective technique for solving the Making Change problem. By storing previously calculated results, it reduces repeated computations and efficiently determines the minimum number of coins needed for a given amount. This practical demonstrates how Dynamic Programming can be applied to optimization problems.
